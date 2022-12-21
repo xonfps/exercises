@@ -1,11 +1,11 @@
 def search_smaller(arr):
     smaller = arr[0]
-    smaller_index = 0
+    smallest_number_index = 0
     for i in range(1, len(arr)):
         if arr[i] < smaller:
             smaller = arr[i]
-            smaller_index = i
-    return smaller_index
+            smallest_number_index = i
+    return smallest_number_index
 
 def sort_by_selection(arr):
     new_arr = []
