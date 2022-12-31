@@ -1,2 +1,2 @@
 # exercises
-Project for practices exercises in any language.
+Project for practices exercises in Python.
